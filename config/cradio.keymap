@@ -27,7 +27,7 @@
     global-quick-tap;
     bindings = <&kp>, <&kp>;
 };
-        }
+        
         
 
         
