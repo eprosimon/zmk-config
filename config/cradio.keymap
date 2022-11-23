@@ -51,10 +51,10 @@
 
        		left_layer {
 		bindings = <
-		&kp ESC  &kp AT    &kp HASH   &kp DOLLAR    &kp PERCENT						&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
-		&kp TAB    &kp EQUAL    &kp GT    &kp GRAVE     &kp SQT				&kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp DEL 
-		&kp TILDE    &kp PLUS 	&kp LT &kp MINUS &kp DQT		&kp MINUS &kp GRAVE &kp LBKT &kp RBKT  &to 3 
-					    &to 1  &sk LEFT_SHIFT 											&kp RGUI &to 4
+		&kp ESC  &kp AT    &kp HASH   &kp DOLLAR    &kp PERCENT				&kp CARET &kp AMPS &kp ASTRK &gqt COLON SEMICOLON &kp BSPC
+		&kp TAB    &kp EQUAL    &kp GT    &kp GRAVE     &kp SQT				&gqt BACKSLASH HOME  &kp LBRC  &kp RBRC &gqt PIPE END &kp ENTER 
+		&kp TILDE    &kp PLUS 	&kp LT &kp MINUS &kp DQT					&kp LBKT &kp LPAR &kp RPAR &kp RBKT  &to 3 
+					    &to 1  &sk LEFT_SHIFT 											&sk RIGHT_ALT &to 4
 		>;
 		};
 		
