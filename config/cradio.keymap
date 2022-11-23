@@ -10,8 +10,12 @@
 
 
 &mt {
-  //  flavor = "tap-preferred";
-   // tapping_term_ms = <200>;
+    tapping-term-ms = <400>;
+};
+
+&sk {
+    release-after-ms = <2000>;
+    /delete-property/ ignore-modifiers;
 };
 
 / { 
@@ -38,10 +42,10 @@
                 
        		default_layer {
 		bindings = <
-		&kp Y &kp C &kp L &kp M &kp K 					   	&kp Z &kp F  &kp U   &gqt CMMA MINUS &kp BKSP 
-		&kp I &kp S &mt LEFT_ALT R &mt LEFT_META T &kp G 			   	        &kp P &mt RIGHT_META N &mt RALT E &kp A &kp O
-		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &gqt FSLH UNDER &gqt DOT EXCL &kp X
-          				&kp SPACE  &kp LSHIFT 				&kp RIGHT_CONTROL &to 2 
+		&kp Y &kp C &kp L &kp M &kp K 					        	&kp Z &kp F  &kp U   &gqt  MINUS CMMA &kp BKSP 
+		&kp I &kp S &mt LEFT_ALT R &mt LEFT_META T &kp G   	        &kp P &mt RIGHT_META N &mt RALT E &kp A &kp O
+		&kp Q &kp V &kp W &kp D &kp J				       			 &kp B &kp H  &gqt UNDER FSLH &gqt EXCL DOT &kp X
+          				&kp SPACE  &sk LSHIFT 						&sk RIGHT_CONTROL &to 2 
 		>;
 		};
 
