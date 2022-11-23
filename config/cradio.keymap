@@ -45,7 +45,7 @@
 		&kp Y &kp C &kp L &kp M &kp K 					        	&kp Z &kp F  &kp U   &gqt  MINUS CMMA &kp BKSP 
 		&kp I &kp S &mt LEFT_ALT R &mt LEFT_META T &kp G   	        &kp P &mt RIGHT_META N &mt RALT E &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				       			 &kp B &kp H  &gqt UNDER FSLH &gqt EXCL DOT &kp X
-          				&kp SPACE  &sk LSHIFT 						&sk RIGHT_CONTROL &tog 2 
+          				&kp SPACE  &sk LSHIFT 						&sk RIGHT_CONTROL &to 1 
 		>;
 		};
 
@@ -53,8 +53,8 @@
 		bindings = <
 		&kp ESC  &kp AT    &kp HASH   &kp DOLLAR    &kp PERCENT				&kp CARET &kp AMPS &kp ASTRK &gqt COLON SEMICOLON &kp BSPC
 		&kp TAB    &kp EQUAL    &kp GT    &kp GRAVE     &kp SQT				&gqt BACKSLASH HOME  &kp LBRC  &kp RBRC &gqt PIPE END &kp ENTER 
-		&kp TILDE    &kp PLUS 	&kp LT &kp MINUS &kp DQT					&kp LBKT &kp LPAR &kp RPAR &kp RBKT  &tog 3 
-					    &tog 1  &sk LEFT_SHIFT 											&sk RIGHT_ALT &tog 4
+		&kp TILDE    &kp PLUS 	&kp LT &kp MINUS &kp DQT					&kp LBKT &kp LPAR &kp RPAR &kp RBKT  &to 3 
+					    &to 0  &sk LEFT_SHIFT 											&sk RIGHT_ALT &to 3
 		>;
 		};
 		
